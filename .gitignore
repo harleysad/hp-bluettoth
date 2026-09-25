@@ -1,0 +1,15 @@
+# build
+*.o
+*.ko
+*.ko.xz
+*.mod
+*.mod.c
+*.cmd
+.*.cmd
+.tmp_versions/
+Module.symvers
+modules.order
+*.symvers
+
+# artefatos de compilacao do kernel build (DKMS)
+/source/rtbth-dkms/.gitignore
